@@ -25,7 +25,7 @@ const NavBarMenu = () => {
         <NavigationMenuItem>
           <a
             onClick={handleScrollToAbout}
-            className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-[#121215] hover:text-white focus:bg-[#121215] focus:text-white focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[state=open]:text-white data-[state=open]:bg-[#121215]/50 data-[state=open]:hover:bg-[#121215] data-[state=open]:focus:bg-[#121215] bg-[#08090B] text-gray-500 cursor-pointer "
+            className="group inline-flex h-9 w-max items-center justify-center rounded-md  px-4 py-2 text-sm font-medium transition-colors hover:bg-[#121215] hover:text-white focus:bg-[#121215] focus:text-white focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[state=open]:text-white data-[state=open]:bg-[#121215]/50 data-[state=open]:hover:bg-[#121215] data-[state=open]:focus:bg-[#121215] bg-[#08090B] text-gray-500 cursor-pointer "
           >
             About
           </a>
@@ -34,7 +34,7 @@ const NavBarMenu = () => {
         <NavigationMenuItem>
           <a
             href="/funding"
-            className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-[#121215] hover:text-white focus:bg-[#121215] focus:text-white focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[state=open]:text-white data-[state=open]:bg-[#121215]/50 data-[state=open]:hover:bg-[#121215] data-[state=open]:focus:bg-[#121215] bg-[#08090B] text-gray-500 cursor-pointer "
+            className="group inline-flex h-9 w-max items-center justify-center rounded-md  px-4 py-2 text-sm font-medium transition-colors hover:bg-[#121215] hover:text-white focus:bg-[#121215] focus:text-white focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[state=open]:text-white data-[state=open]:bg-[#121215]/50 data-[state=open]:hover:bg-[#121215] data-[state=open]:focus:bg-[#121215] bg-[#08090B] text-gray-500 cursor-pointer "
           >
             Funding
           </a>
