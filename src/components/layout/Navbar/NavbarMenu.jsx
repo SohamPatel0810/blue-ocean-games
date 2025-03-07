@@ -44,9 +44,9 @@ const NavBarMenu = () => {
           <NavigationMenuTrigger className="!bg-[#08090B] !text-gray-500 !hover:bg-[#121215] !hover:text-white !focus:bg-[#121215] !focus:text-white">
             Resources
           </NavigationMenuTrigger>
-          <NavigationMenuContent className="!bg-[#121215] !border-none p-4">
+          <NavigationMenuContent className="!bg-[#121215] !border-none p-4 transition-all duration-300 ease-in-out transform-gpu translate-x-0 left-0">
             <div className="bg-[#1E1E1E] p-4 rounded-md shadow-md !border-none">
-              <ul className="w-[400px] space-y-2">
+              <ul className="w-[250px] space-y-2">
                 <li>
                   <NavigationMenuLink asChild>
                     <a
@@ -82,9 +82,9 @@ const NavBarMenu = () => {
           <NavigationMenuTrigger className="!bg-[#08090B] !text-gray-500 !hover:bg-[#121215] !hover:text-white !focus:bg-[#121215] !focus:text-white">
             Community
           </NavigationMenuTrigger>
-          <NavigationMenuContent className="left-0">
+          <NavigationMenuContent className="!bg-[#121215] !border-none p-4 transition-all duration-300 ease-in-out transform-gpu translate-x-0 left-0">
             <div className="bg-[#1E1E1E] p-4 rounded-md shadow-md !border-none">
-              <ul className="w-[400px] space-y-2">
+              <ul className="w-[250px] space-y-2">
                 <li>
                   <NavigationMenuLink asChild>
                     <a

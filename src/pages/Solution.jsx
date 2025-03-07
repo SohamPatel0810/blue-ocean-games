@@ -1,14 +1,16 @@
+import "animate.css";
+
 const Solutions = () => {
   return (
-    <div className="bg-black text-white py-12 px-4">
+    <div className="bg-black text-white pt-12 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-xl font-bold mb-4 text-center text-[#5D5DFF]">
           OUR SOLUTION
         </h2>
-        <h1 className="text-6xl font-bold mb-6 text-center">
+        <h1 className="text-5xl font-bold mb-6 text-center">
           End-to-End, Customizable Setup
         </h1>
-        <p className="text-center text-gray-400 mb-8">
+        <p className="text-center text-gray-400">
           Testimonial offers an agency-dedicated plan to help grow your
           business. You will have the best <br /> platform you need to handle
           testimonial collection, easy to use for you, your clients, and theirs!
@@ -17,8 +19,8 @@ const Solutions = () => {
         <section id="solutions" className="py-20 bg-black text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Solution 1 */}
-            <div className="flex flex-col lg:flex-row items-center mb-10 animate__animated animate__fadeIn bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg">
-              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12 animate__animated animate__fadeInLeft">
+            <div className="flex flex-col lg:flex-row items-center mb-10 bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg animate__animated animate__fadeIn animate__delay-0.5s animate__slow">
+              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
                 <h3 className="text-xl md:text-3xl font-bold text-[#5D5DFF] mb-4">
                   Quick to setup
                 </h3>
@@ -32,7 +34,7 @@ const Solutions = () => {
                   or even SMS. Setup can be done in two minutes.
                 </p>
               </div>
-              <div className="lg:w-1/2 animate__animated animate__fadeInRight border-2 border-white rounded-lg">
+              <div className="lg:w-1/2 animate__animated animate__fadeInRight animate__delay-1s animate__slow border-2 border-white rounded-lg">
                 <img
                   src="/assets/img-1.jpg"
                   alt="Control spend"
@@ -42,8 +44,8 @@ const Solutions = () => {
             </div>
 
             {/* Solution 2 */}
-            <div className="flex flex-col lg:flex-row-reverse items-center mb-10 animate__animated animate__fadeIn bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg">
-              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pl-12 animate__animated animate__fadeInRight">
+            <div className="flex flex-col lg:flex-row-reverse items-center mb-10 bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg animate__animated animate__fadeIn animate__delay-1s animate__slow">
+              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pl-12">
                 <h3 className="text-2xl md:text-3xl font-bold text-[#5D5DFF] mb-4">
                   Easy to manage
                 </h3>
@@ -58,7 +60,7 @@ const Solutions = () => {
                   own testimonial content.
                 </p>
               </div>
-              <div className="lg:w-1/2 animate__animated animate__fadeInLeft border-2 border-white rounded-lg">
+              <div className="lg:w-1/2 animate__animated animate__fadeInLeft animate__delay-1.5s animate__slow border-2 border-white rounded-lg">
                 <img
                   src="/assets/img-2.jpg"
                   alt="Easy expenses"
@@ -68,8 +70,8 @@ const Solutions = () => {
             </div>
 
             {/* Solution 3 */}
-            <div className="flex flex-col lg:flex-row items-center mb-10 animate__animated animate__fadeIn bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg">
-              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12 animate__animated animate__fadeInLeft">
+            <div className="flex flex-col lg:flex-row items-center mb-10 bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg animate__animated animate__fadeIn animate__delay-2s animate__slow">
+              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
                 <h3 className="text-2xl md:text-3xl font-bold text-[#5D5DFF] mb-4">
                   No-code integration
                 </h3>
@@ -88,7 +90,7 @@ const Solutions = () => {
                   Explore Brex business accounts →
                 </a>
               </div>
-              <div className="lg:w-1/2 animate__animated animate__fadeInRight border-2 border-white rounded-lg">
+              <div className="lg:w-1/2 animate__animated animate__fadeInRight animate__delay-2.5s animate__slow border-2 border-white rounded-lg">
                 <img
                   src="/assets/img-3.jpg"
                   alt="Business accounts"
@@ -98,8 +100,8 @@ const Solutions = () => {
             </div>
 
             {/* Solution 4 */}
-            <div className="flex flex-col lg:flex-row-reverse items-center mb-10 animate__animated animate__fadeIn bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg">
-              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pl-12 animate__animated animate__fadeInRight">
+            <div className="flex flex-col lg:flex-row-reverse items-center mb-10 bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg animate__animated animate__fadeIn animate__delay-3s animate__slow">
+              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pl-12">
                 <h3 className="text-2xl md:text-3xl font-bold text-[#5D5DFF] mb-4">
                   Invite clients
                 </h3>
@@ -113,7 +115,7 @@ const Solutions = () => {
                   and your clients are always on the same page!
                 </p>
               </div>
-              <div className="lg:w-1/2 animate__animated animate__fadeInLeft border-2 border-white rounded-lg">
+              <div className="lg:w-1/2 animate__animated animate__fadeInLeft animate__delay-3.5s animate__slow border-2 border-white rounded-lg">
                 <img
                   src="/assets/img-4.jpg"
                   alt="Bill pay"
@@ -123,8 +125,8 @@ const Solutions = () => {
             </div>
 
             {/* Solution 5 */}
-            <div className="flex flex-col lg:flex-row items-center animate__animated animate__fadeIn bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg">
-              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12 animate__animated animate__fadeInLeft">
+            <div className="flex flex-col lg:flex-row items-center animate__animated animate__fadeIn animate__delay-4s animate__slow bg-gradient-to-br from-[#5D5DFF]/10 via-[#1E1E2F]/10 to-black p-6 rounded-lg">
+              <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
                 <h3 className="text-2xl md:text-3xl font-bold text-[#5D5DFF] mb-4">
                   Track the metrics
                 </h3>
@@ -139,7 +141,7 @@ const Solutions = () => {
                   of Love.
                 </p>
               </div>
-              <div className="lg:w-1/2 animate__animated animate__fadeInRight border-2 border-white rounded-lg">
+              <div className="lg:w-1/2 animate__animated animate__fadeInRight animate__delay-4.5s animate__slow border-2 border-white rounded-lg">
                 <img
                   src="/assets/img-5.jpg"
                   alt="Accounting AI"

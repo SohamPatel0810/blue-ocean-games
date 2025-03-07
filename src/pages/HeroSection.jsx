@@ -12,12 +12,12 @@ const HeroSection = () => {
       }}
     >
       <div className="text-center px-4">
-        <h1 className="text-6xl font-bold mb-4">
+        <h1 className="text-6xl font-bold mb-4 glow-text">
           Where Indie Dreams
           <br />
           Set Sail
         </h1>
-        <p className="text-lg text-gray-400 mb-6">
+        <p className="text-lg text-gray-400 mb-6 glow-text">
           Support bold game ideas and join the community shaping the future of
           gaming
         </p>

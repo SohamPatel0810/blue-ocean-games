@@ -45,7 +45,7 @@ const Opportunities = () => {
         <h2 className="text-xl font-bold mb-4 text-center text-[#5D5DFF]">
           OPPORTUNITIES FOR YOU
         </h2>
-        <h1 className="text-6xl font-bold mb-6 text-center">
+        <h1 className="text-5xl font-bold mb-6 text-center">
           Offer a unique, dynamic service
         </h1>
         <p className="text-center text-gray-400 mb-8">
